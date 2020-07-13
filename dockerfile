@@ -91,5 +91,7 @@ COPY ./scripts/flask_bot.sh ./
 
 EXPOSE 9001
 WORKDIR /chatbot/scripts
-CMD "./console_bot.sh"
+#CMD "./console_bot.sh"
 #CMD "./test_console.sh"
+
+CMD "./flask_bot.sh"
